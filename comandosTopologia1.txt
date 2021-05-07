@@ -1,0 +1,176 @@
+
+#R4
+configure terminal
+interface fastethernet 0/1
+ip address 10.11.0.2 255.255.192.0
+Vrrp 1 ip 10.11.0.2 
+Vrrp 1 priority 150
+Vrrp 1 preempt
+no shutdown
+exit
+
+interface fastethernet 0/0
+ip address 10.11.64.1 255.255.192.0
+Vrrp 2 ip 10.11.64.1
+Vrrp 2 priority 150
+Vrrp 2 preempt
+no shutdown
+exit
+
+
+#R1
+configure terminal
+interface fastethernet 1/0
+ip address 10.11.0.1 255.255.192.0
+Vrrp 1 ip 10.11.0.1
+Vrrp 1 priority 150
+no shutdown
+exit
+
+interface fastethernet 0/0
+ip address 10.11.64.2 255.255.192.0
+Vrrp 2 ip 10.11.64.2
+Vrrp 2 priority 150
+no shutdown
+exit
+
+interface fastethernet 0/1
+ip address 10.11.128.1 255.255.192.0
+Vrrp 3 ip 10.11.128.1 
+Vrrp 3 priority 150
+no shutdown
+exit
+
+
+
+#R2
+configure terminal
+interface fastethernet 0/0
+ip address 10.11.64.3 255.255.192.0
+no shutdown
+exit
+
+interface fastethernet 0/1
+ip address 10.11.128.2 255.255.192.0
+no shutdown
+exit
+
+
+
+#R3
+configure terminal
+interface fastethernet 0/0
+ip address 10.11.64.4 255.255.192.0
+Standby 1 ip 10.11.64.4
+Standby 1 priority 150
+no shutdown
+exit
+
+interface fastethernet 0/1
+ip address 10.11.128.3 255.255.192.0
+Standby 2 ip 10.11.128.3
+Standby 2 priority 150
+no shutdown
+exit
+
+interface fastethernet 1/0
+ip address 10.11.192.2 255.255.192.0
+Standby 2 ip 10.11.192.2
+Standby 2 priority 150
+no shutdown
+exit
+
+
+#5
+configure terminal
+interface fastethernet 0/0
+ip address 10.11.128.4 255.255.192.0
+Standby 1 ip 10.11.128.4
+Standby 1 priority 150
+Standby 1 preempt
+no shutdown
+exit
+
+interface fastethernet 0/1
+ip address 10.11.192.1 255.255.192.0
+Standby 2 ip 10.11.192.1
+Standby 2 priority 150
+Standby 2 preempt
+no shutdown
+exit
+
+
+#R4 ROUTER 6
+configure terminal
+router rip
+network 10.11.0.0
+network 10.11.64.0
+exit
+
+#R5 /ROUTER 7
+configure terminal
+router rip
+network 10.11.128.0
+network 10.11.192.0
+exit
+
+
+#R4 ROUTER 6
+configure terminal
+router rip
+version 2 
+network 10.11.0.0
+network 10.11.64.0
+exit
+
+#R5 /ROUTER 7
+configure terminal
+router rip
+version 2 
+network 10.11.128.0
+network 10.11.192.0
+exit
+
+
+
+#R1
+configure terminal
+router rip
+version 2 
+network 10.11.0.0
+network 10.11.64.0
+network 10.11.128.0
+exit
+
+
+#R2
+configure terminal
+router rip
+version 2 
+network 10.11.64.0
+network 10.11.128.0
+exit
+
+#R3
+configure terminal
+router rip
+version 2 
+network 10.11.64.0
+network 10.11.128.0
+network 10.11.192.0
+exit
+
+#R4 / ROUTER 6
+config terminal 
+interface fastethernet 
+no shutdown
+standby
+standby
+standby 
+exit
+
+
+
+#R1 / ROUTER 3
+
+//LAS GATWAY SON LAS DEL ROUTER
