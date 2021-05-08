@@ -120,7 +120,7 @@ el subneteo para saber las redes al igual se realizo el protocolo HSRP tanto com
 #
 
 #
-![This is a alt text.](/Imagenes/subneteo.PNG "This is a sample image.")
+![This is a alt text.](/Imagenes/subneteo.JPG "This is a sample image.")
 * Subneteo
 #
 
