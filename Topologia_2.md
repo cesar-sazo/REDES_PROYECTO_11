@@ -92,4 +92,4 @@ exit
 ### MODO TRUNCAL Y VLANS
 | Po2 | Po3 | Po5 |
 | ------------ | ------------- | ------------- |
-| <img src="/ESW1/Modotroncalyvlans/Po2" width="250"> | <img src="/ESW1/Modotroncalyvlans/Po3" width="250"> | <img src="/ESW1/Modotroncalyvlans/Po4" width="250"> |
+| ![Screenshot](/img/ESW1/Modotroncalyvlans/Po2.png) | ![Screenshot](img/ESW1/Modotroncalyvlans/Po3.png) | ![Screenshot](img/ESW1/Modotroncalyvlans/Po5.png) |
