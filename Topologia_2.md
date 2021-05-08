@@ -12,13 +12,13 @@ vtp mode [modo server/client]
 end
 ```
 ### MODO SERVER ESW4
-![This is a alt text.](/VTPS/ModoserverESW4.png "This is a sample image.")
+![This is a alt text.](/img/VTPS/ModoserverESW4.png "This is a sample image.")
 ### MODO CLIENTE ESW1
-![This is a alt text.](/VTPS/ModoclienteESW1.png "This is a sample image.")
+![This is a alt text.](/img/VTPS/ModoclienteESW1.png "This is a sample image.")
 ### MODO CLIENTE ESW2
-![This is a alt text.](/VTPS/ModoclienteESW2.png "This is a sample image.")
+![This is a alt text.](/img/VTPS/ModoclienteESW2.png "This is a sample image.")
 ### MODO CLIENTE ESW3
-![This is a alt text.](/VTPS/ModoclienteESW3.png "This is a sample image.")
+![This is a alt text.](/img/VTPS/ModoclienteESW3.png "This is a sample image.")
 
 
 * CONFIGURACION DE LOS "TRUNK"
@@ -33,59 +33,59 @@ switchport trunk allowed vlan 1,10,20,30,1002-1005
 exit
 ```
 ### ESW1
-![This is a alt text.](/PuertosModoTronkal/ESW1/ESW1-Switch1.png "This is a sample image.")
+![This is a alt text.](/img/PuertosModoTronkal/ESW1/ESW1-Switch1.png "This is a sample image.")
 
 ### ESW2
-![This is a alt text.](/PuertosModoTronkal/ESW2/ESW2-Switch3.png "This is a sample image.")
+![This is a alt text.](/img/PuertosModoTronkal/ESW2/ESW2-Switch3.png "This is a sample image.")
 
 ### ESW3
-![This is a alt text.](/PuertosModoTronkal/ESW3/ESW3-Switch2.png "This is a sample image.")
+![This is a alt text.](/img/PuertosModoTronkal/ESW3/ESW3-Switch2.png "This is a sample image.")
 
 
 * CONFIGURACION DE LOS "SWITCH"
 
 ### ACCESS VLAN SWITCH 1
-![This is a alt text.](/Switch/accessvlanSwitch1.png "This is a sample image.")
+![This is a alt text.](/img/Switch/accessvlanSwitch1.png "This is a sample image.")
 
 ### ACCESS VLAN SWITCH 2
-![This is a alt text.](/Switch/accessvlanSwitch2.png "This is a sample image.")
+![This is a alt text.](/img/Switch/accessvlanSwitch2.png "This is a sample image.")
 
 ### ACCESS VLAN SWITCH 3
-![This is a alt text.](/Switch/accessvlanSwitch3.png "This is a sample image.")
+![This is a alt text.](/img/Switch/accessvlanSwitch3.png "This is a sample image.")
 
 ### TRONCAL SWITCH 1
-![This is a alt text.](/Switch/TroncalSwitch1.png "This is a sample image.")
+![This is a alt text.](/img/Switch/TroncalSwitch1.png "This is a sample image.")
 
 ### TRONCAL SWITCH 2
-![This is a alt text.](/Switch/TroncalSwitch2.png "This is a sample image.")
+![This is a alt text.](/img/Switch/TroncalSwitch2.png "This is a sample image.")
 
 ### TRONCAL SWITCH 3
-![This is a alt text.](/Switch/TroncalSwitch3.png "This is a sample image.")
+![This is a alt text.](/img/Switch/TroncalSwitch3.png "This is a sample image.")
 
 ### TRONCAL SWITCH 4 NUVES Y ROUTER
-![This is a alt text.](/Switch/TroncalSwitch4nuvesyrouter.png "This is a sample image.")
+![This is a alt text.](/img/Switch/TroncalSwitch4nuvesyrouter.png "This is a sample image.")
 
 
 * SHOW PORT Y SUMMARY
 
 ### ESW1
-![This is a alt text.](/ShowPortySummary/ESW1.png "This is a sample image.")
+![This is a alt text.](/img/ShowPortySummary/ESW1.png "This is a sample image.")
 ### ESW2
-![This is a alt text.](/ShowPortySummary/ESW2.png "This is a sample image.")
+![This is a alt text.](/img/ShowPortySummary/ESW2.png "This is a sample image.")
 ### ESW3
-![This is a alt text.](/ShowPortySummary/ESW3.png "This is a sample image.")
+![This is a alt text.](/img/ShowPortySummary/ESW3.png "This is a sample image.")
 ### ESW4
-![This is a alt text.](/ShowPortySummary/ESW4.png "This is a sample image.")
+![This is a alt text.](/img/ShowPortySummary/ESW4.png "This is a sample image.")
 
 
 * ROUTER
 
 ### ACTIVAR PUERTOS TRUNK R1
-![This is a alt text.](/Router/ActivarpuertostrunkR1.png "This is a sample image.")
+![This is a alt text.](/img/Router/ActivarpuertostrunkR1.png "This is a sample image.")
 ### DHCP 1
-![This is a alt text.](/Router/DHCP1.png "This is a sample image.")
+![This is a alt text.](/img/Router/DHCP1.png "This is a sample image.")
 ### DHCP 2
-![This is a alt text.](/Router/DHCP2.png "This is a sample image.")
+![This is a alt text.](/img/Router/DHCP2.png "This is a sample image.")
 
 * CONFIGURACIONES DEL ESW1
 
