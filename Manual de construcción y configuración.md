@@ -109,6 +109,35 @@ el subneteo para saber las redes al igual se realizo el protocolo HSRP tanto com
 #
 
 
+### CONFIGURACION TOPOLOGIA 3
+* Topologia 3
+![This is a alt text.](/Imagenes/topo3.jpg "This is a sample image.")
+
+
+#
+![This is a alt text.](/Imagenes/vpntopo3.jpg "This is a sample image.")
+* VPN topologia3 
+#
+
+#
+![This is a alt text.](/Imagenes/subneteo.jpg "This is a sample image.")
+* Subneteo
+#
+
+#
+![This is a alt text.](/Imagenes/confdhcp.jpg "This is a sample image.")
+* Se configuro el Router 1
+#
+
+#
+![This is a alt text.](/Imagenes/admin1.jpg "This is a sample image.")
+* Se realizo dhcp en la vpc Admin1
+#
+
+#
+![This is a alt text.](/Imagenes/admin2.jpg "This is a sample image.")
+* Se realizo dhcp en la vpc Admin2
+#
 
 
 
