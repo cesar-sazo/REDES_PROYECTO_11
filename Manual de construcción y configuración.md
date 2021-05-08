@@ -111,7 +111,7 @@ el subneteo para saber las redes al igual se realizo el protocolo HSRP tanto com
 
 ### CONFIGURACION TOPOLOGIA 3
 * Topologia 3
-![This is a alt text.](/Imagenes/topo3.PNG "This is a sample image.")
+![This is a alt text.](/Imagenes/topo3.JPG "This is a sample image.")
 
 
 #
