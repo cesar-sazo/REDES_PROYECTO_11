@@ -115,7 +115,7 @@ el subneteo para saber las redes al igual se realizo el protocolo HSRP tanto com
 
 
 #
-![This is a alt text.](/Imagenes/vpntopo3.jpg "This is a sample image.")
+![This is a alt text.](/Imagenes/vpntopo3.PNG "This is a sample image.")
 * VPN topologia3 
 #
 
